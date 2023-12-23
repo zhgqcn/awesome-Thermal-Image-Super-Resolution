@@ -7,15 +7,12 @@
 ## Thermal Image Super-resolution: A Novel Architecture and Dataset
 
 > - 该数据集作为PBSV竞赛的常用数据集，提供了LR、MR、HR三种格式，用于实现单图超分、跨域超分
+> - 面临问题：超分质量提升、跨域图像配准
 
 <div style="display: flex; justify-content: center;">
-    <img title="" src="./img/challenge_1.PNG" alt="" width="1000">
+    <img title="" src="./img/TISR-A-novel-dataset.jpg" alt="" width="1000">
 </div>
 
-<div style="display: flex; justify-content: center;">
-    <img title="" src="./img/challenge_2.PNG" alt="" width="700">
-    <img title="" src="./img/challenge_3.PNG" alt="" width="500">
-</div>
 
 
 
