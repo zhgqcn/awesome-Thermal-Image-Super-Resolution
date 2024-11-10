@@ -364,3 +364,11 @@
 <div style="display: flex; justify-content: center;">
     <img title="" src="./img/CMRFusion.jpg" alt="" width="1200">
 </div>
+
+## Infrared and Visible Image Fusion via Test-Time Training
+
+> 红外和可见光图像融合（Infrared and Visible Image Fusion, IVIF）是一种在仪器相关领域广泛使用的技术。其目的是从红外图像中提取对比度信息，从可见光图像中提取纹理细节，并将这两类信息结合到单一图像中。大多数基于自动编码器的方法在自然图像（如MS-COCO）上训练网络，然后在IVIF数据集上测试模型。此类方法存在领域迁移问题，难以在真实场景中很好地泛化。为此，我们提出了一种自监督的测试时训练（Test-Time Training, TTT）方法，以便在测试时获得更好的融合效果。具体来说，我们开发了一种新的自监督损失函数，用于评估融合结果的质量。该损失函数通过在测试时的少量迭代优化模型参数，引导网络提高融合质量。此外，我们不再手动设计融合策略，而是利用融合适配器自动学习融合规则。在两个公共IVIF数据集上的实验对比验证了所提方法在主观和客观上均优于现有方法。
+
+<div style="display: flex; justify-content: center;">
+    <img title="" src="./img/IVIF-TTT.png" alt="" width="1200">
+</div>
